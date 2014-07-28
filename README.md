@@ -23,3 +23,15 @@ I. The license database:
 2) Copy a javascript file from our site to yours and write down the url to that file. It’s copied from JQuery sites.  jquery-1.9.0.js (http://library.queensu.ca/devel/testing/360link/jquery-1.9.0.js)
 
 
+II: Add the links to 360 Link search result pages:
+
+    Edit the 360_get_name.js. You need to replace the url in this file with the file path on your site.
+    Insert 360_get_names.js and the jquery-1.9.0.js to Serials Solutions’ Client Center>360 Link Admin
+    Add the libraryLicenses.php file to your server and define the path in the 360_get_name.js on your site
+    You can test and see how it looks the next day. (Give 24 hours before it works)
+    If you can get the license links added in 360 Link, you can add it to Summon and Voyager, or any other systems if you can insert a link in their interface.
+
+ 
+III: Add the links to ILS- Voyager record display page:
+    Add the "Voyager License links" to your Voyager Web server: xsl/contentLayout/display/display.xsl file in the "<xsl:template name=”BMD3000″>" 
+
