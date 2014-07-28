@@ -34,4 +34,16 @@ II: Add the links to 360 Link search result pages:
  
 III: Add the links to ILS- Voyager record display page:
     Add the "Voyager License links" to your Voyager Web server: xsl/contentLayout/display/display.xsl file in the xsl:template name=”BMD3000″
+    
 
+IV: Add the links to Summon search result pages:
+
+    * Summon 1.0:
+        Using Publisher data to get license links ( this might not be accurate, please check with your serials librarian first)
+        You need to host a JavaScript file on your web server and  include a link to that file in Summon.
+        Please add the license.js (it’s a javascipt made by Matthew Reidsma & Adam Luckenbaugh, and I just modified it with my get_license.js) to Serials Solutions’ Client Center>Summon Admin>Custom Link> URL: enter the url of the license.js and wait for 24 hours to test
+        
+    * Summon 2.0:
+        Using Publisher data to get license links ( this might not be accurate, please check with your serials librarian first)
+        Copy this javascript (summon_license_2.js) file to your server and insert the path url to : Serials Solutions’ Client Center >Summon Admin > Summon 2.0 (if you are migrated to Summon 2.0 yet) External Script: enter the url
+        If you have migrated to Summon 2.0, insert the javascript to the same place as in Summon 1.0
