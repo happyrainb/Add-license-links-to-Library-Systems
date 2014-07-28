@@ -33,5 +33,5 @@ II: Add the links to 360 Link search result pages:
 
  
 III: Add the links to ILS- Voyager record display page:
-    Add the "Voyager License links" to your Voyager Web server: xsl/contentLayout/display/display.xsl file in the <xsl:template name=”BMD3000″>
+    Add the "Voyager License links" to your Voyager Web server: xsl/contentLayout/display/display.xsl file in the xsl:template name=”BMD3000″
 
